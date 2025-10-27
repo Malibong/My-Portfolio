@@ -29,20 +29,23 @@ body {
 
 section { 
     min-height: 100vh;
-    padding: 10rem 7% 2rem;
+    padding: 10rem 9% 2rem;
 }
 
 /* Header Section Code */
 
 .header {
     position: fixed;
-    top: 0; left: 0; right: 0;
-    padding: 2rem 7%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: var(--main-color);
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 7%;
+    background: var(--main-color);
+    backdrop-filter: blur(10px);
+    transition: all 0.5s ease;
 }
-
