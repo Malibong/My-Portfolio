@@ -49,3 +49,21 @@ section {
     backdrop-filter: blur(10px);
     transition: all 0.5s ease;
 }
+
+.logo {
+    font-size: 3rem;
+    color: var(--bg-color);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.navbar a {
+    font-size: 1.9rem;
+    color: var(--bg-color);
+    margin-left: 4rem;
+}
