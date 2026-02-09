@@ -3,38 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <title>Malibongwe | Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <title>Malibongwe Blessing Tshabalala</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Header Section Code -->
-    <header class="header">   
-        <a href="#home" class="logo">Malibongwe Blessing Tshabalala</a>
+    <nav class="navbar">
+        <div class="logo">Malibong<span>.dev</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-        <i class="bx bx-menu" id="menu-icon"></i>
-        
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#testimonial">Testimonial</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-
-    <!-- Home Section Code -->
-
-    <section class="home" id="home"></section>
-        <div class="home-img">
-            <img src="assests/Profile.jpeg" alt="Profile image">
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h3>Hello, I'm</h3>
+            <h1>Malibongwe Tshabalala</h1>
+            <h3>I am a <span class="typing-text"></span></h3>
+            <p>Software Engineering Student at WeThinkCode_ | Building the future of tech.</p>
+            <div class="social-icons">
+                <a href="https://github.com/Malibong" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/malibongwe-blessing-tshabalala-815b9a220/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="#projects" class="btn">View My Work</a>
         </div>
+    </section>
 
-        <div class="home-content">
-            <h3>Hello, I'm Malibongwe Blessing Tshabalala</h3>
-            <h1>Full-Stack Developer</h1>
-            <p>I'm a passionate full-stack developer with experience in building dynamic and responsive web applications. I love creating efficient and scalable solutions that provide great user experiences.</p>
-            <a href="#contact" class="btn">Hire Me</a>
+    <section id="projects" class="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="project-container">
+            <div class="project-card">
+                <i class="fas fa-chart-line project-icon"></i>
+                <h3>Empiras Vanguard</h3>
+                <p>A comprehensive student dashboard tracking skills, activities, and growth.</p>
+                <a href="https://github.com/Malibong/empiras-vanguard" class="btn-sm">View Code</a>
+            </div>
+            <div class="project-card">
+                <i class="fas fa-tasks project-icon"></i>
+                <h3>BehavTrack</h3>
+                <p>Behavior tracking application tailored for educational monitoring.</p>
+                <a href="https://github.com/Malibong/BehavTrack" class="btn-sm">View Code</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2026 by Malibongwe | All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
