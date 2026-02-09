@@ -1,5 +1,5 @@
 const textElement = document.querySelector(".typing-text");
-const texts = ["Software Engineer", "Web Developer", "Tech Enthusiast"];
+const texts = ["Software Engineer", "Data Engineer", "Tech Enthusiast"];
 let count = 0;
 let index = 0;
 let currentText = "";
